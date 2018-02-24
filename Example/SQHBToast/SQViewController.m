@@ -8,6 +8,7 @@
 
 #import "SQViewController.h"
 #import <SQHBToast/UIViewController+HUD.h>
+#import <SQHBToast/UIView+SQLoadAnimation.h>
 
 @interface SQViewController ()
 
@@ -21,6 +22,21 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     MBShowToast(@"OKOK");
+    
+    [self.view beginLoading];    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [super touchesBegan:touches withEvent:event];
+    BOOL isLoading = [self.view.loadingView isLoading];
+    if (isLoading) {
+        [self.view endLoading];
+    }
+    else
+    {
+        [self.view beginLoading];
+    }
 }
 
 - (void)didReceiveMemoryWarning
