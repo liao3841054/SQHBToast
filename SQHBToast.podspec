@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/251180323@qq.com/SQHBToast'
+  s.homepage         = 'https://github.com/liao3841054/SQHBToast.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '251180323@qq.com' => '251180323@qq.com' }
-  s.source           = { :git => 'https://github.com/251180323@qq.com/SQHBToast.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liao3841054/SQHBToast.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SQHBToast/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SQHBToast' => ['SQHBToast/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'SQHBToast' => ['SQHBToast/Assets/*/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'MBProgressHUD', '~> 0.8'
 end
