@@ -23,7 +23,10 @@
     
     MBShowToast(@"OKOK");
     
-    [self.view beginLoading];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 300)];
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
+    [view beginLoading];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
