@@ -7,6 +7,7 @@
 //
 
 #import "SQViewController.h"
+#import <SQHBToast/UIViewController+HUD.h>
 
 @interface SQViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    MBShowToast(@"OKOK");
 }
 
 - (void)didReceiveMemoryWarning

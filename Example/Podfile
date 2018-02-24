@@ -1,11 +1,10 @@
-use_frameworks!
+#use_frameworks!
 
 target 'SQHBToast_Example' do
   pod 'SQHBToast', :path => '../'
+  pod 'MBProgressHUD', '~> 0.8'
 
   target 'SQHBToast_Tests' do
     inherit! :search_paths
-
-    
   end
 end

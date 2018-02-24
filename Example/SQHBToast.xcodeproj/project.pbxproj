@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		282021EDB66E55005726C79A /* Pods_SQHBToast_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B0E3C8C2147413EAA8A41A /* Pods_SQHBToast_Tests.framework */; };
-		2E691479AB7784EBE9234A61 /* Pods_SQHBToast_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43D881CE650321056BB37D1 /* Pods_SQHBToast_Example.framework */; };
+		491A60B63CBD5B0A6BEDB640 /* libPods-SQHBToast_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADABB0C724CFFFC6E4E72EE /* libPods-SQHBToast_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A3B10B8320410EEB000F10F6 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A3B10B8020410EEB000F10F6 /* .gitkeep */; };
+		B6D29A70D115AC9AA2583111 /* libPods-SQHBToast_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5571EEFCA60780D69E92659F /* libPods-SQHBToast_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,9 @@
 
 /* Begin PBXFileReference section */
 		2D108A05C75FA55469D2CE7B /* Pods-SQHBToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQHBToast_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQHBToast_Example/Pods-SQHBToast_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3405E0859CED500FC1AC8C45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3405E0859CED500FC1AC8C45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		40349764F3ADB104D85C7DAF /* Pods-SQHBToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQHBToast_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQHBToast_Tests/Pods-SQHBToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5571EEFCA60780D69E92659F /* libPods-SQHBToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQHBToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SQHBToast_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQHBToast_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +63,14 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		738F6B243501971F1C66C841 /* Pods-SQHBToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQHBToast_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQHBToast_Tests/Pods-SQHBToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7ADABB0C724CFFFC6E4E72EE /* libPods-SQHBToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQHBToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C43D881CE650321056BB37D1 /* Pods_SQHBToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQHBToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D07972DD134F21FF50B9762A /* SQHBToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SQHBToast.podspec; path = ../SQHBToast.podspec; sourceTree = "<group>"; };
+		A3B10B8020410EEB000F10F6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A3B10B8420410F19000F10F6 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		A3B10B8520410F19000F10F6 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		D07972DD134F21FF50B9762A /* SQHBToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SQHBToast.podspec; path = ../SQHBToast.podspec; sourceTree = "<group>"; };
 		D98D2D2AD29186FD89DB1CE3 /* Pods-SQHBToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQHBToast_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQHBToast_Example/Pods-SQHBToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F123CEFD3A4992E74B80CFF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F5B0E3C8C2147413EAA8A41A /* Pods_SQHBToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQHBToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F123CEFD3A4992E74B80CFF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +81,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2E691479AB7784EBE9234A61 /* Pods_SQHBToast_Example.framework in Frameworks */,
+				B6D29A70D115AC9AA2583111 /* libPods-SQHBToast_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +92,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				282021EDB66E55005726C79A /* Pods_SQHBToast_Tests.framework in Frameworks */,
+				491A60B63CBD5B0A6BEDB640 /* libPods-SQHBToast_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +138,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C43D881CE650321056BB37D1 /* Pods_SQHBToast_Example.framework */,
-				F5B0E3C8C2147413EAA8A41A /* Pods_SQHBToast_Tests.framework */,
+				5571EEFCA60780D69E92659F /* libPods-SQHBToast_Example.a */,
+				7ADABB0C724CFFFC6E4E72EE /* libPods-SQHBToast_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,11 +193,39 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				A3B10B7B20410EEB000F10F6 /* SQHBToast */,
 				D07972DD134F21FF50B9762A /* SQHBToast.podspec */,
 				3405E0859CED500FC1AC8C45 /* README.md */,
 				F123CEFD3A4992E74B80CFF2 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A3B10B7B20410EEB000F10F6 /* SQHBToast */ = {
+			isa = PBXGroup;
+			children = (
+				A3B10B7C20410EEB000F10F6 /* Classes */,
+				A3B10B7F20410EEB000F10F6 /* Assets */,
+			);
+			name = SQHBToast;
+			path = ../SQHBToast;
+			sourceTree = "<group>";
+		};
+		A3B10B7C20410EEB000F10F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3B10B8420410F19000F10F6 /* UIViewController+HUD.h */,
+				A3B10B8520410F19000F10F6 /* UIViewController+HUD.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A3B10B7F20410EEB000F10F6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A3B10B8020410EEB000F10F6 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +282,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "251180323@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = D4FLJW46AP;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -281,6 +316,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				A3B10B8320410EEB000F10F6 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -533,6 +569,7 @@
 			baseConfigurationReference = D98D2D2AD29186FD89DB1CE3 /* Pods-SQHBToast_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D4FLJW46AP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQHBToast/SQHBToast-Prefix.pch";
 				INFOPLIST_FILE = "SQHBToast/SQHBToast-Info.plist";
@@ -548,6 +585,7 @@
 			baseConfigurationReference = 2D108A05C75FA55469D2CE7B /* Pods-SQHBToast_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D4FLJW46AP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQHBToast/SQHBToast-Prefix.pch";
 				INFOPLIST_FILE = "SQHBToast/SQHBToast-Info.plist";

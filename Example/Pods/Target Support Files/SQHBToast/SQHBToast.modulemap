@@ -1,0 +1,6 @@
+framework module SQHBToast {
+  umbrella header "SQHBToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

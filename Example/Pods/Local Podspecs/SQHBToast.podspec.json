@@ -1,0 +1,22 @@
+{
+  "name": "SQHBToast",
+  "version": "0.1.0",
+  "summary": "A short description of SQHBToast.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/251180323@qq.com/SQHBToast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "251180323@qq.com": "251180323@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/251180323@qq.com/SQHBToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SQHBToast/Classes/**/*"
+}
