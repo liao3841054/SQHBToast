@@ -29,9 +29,14 @@
 - (void)initLoadingView {
     _loadingView = [[UIImageView alloc] init];
     NSMutableArray *loadingArray  =[NSMutableArray arrayWithCapacity:22];
+    
     for (int i = 1; i < 22; i ++) {
+        
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"SQHBToast" ofType:@"bundle"];
+        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+        
         NSString *imageNmae =[NSString stringWithFormat:@"loading%d",i];
-        UIImage *image = [UIImage imageNamed:imageNmae];
+        UIImage *image =  [UIImage imageNamed:imageNmae inBundle:bundle compatibleWithTraitCollection:nil];
         if (image) {
             [loadingArray addObject:image];
         }

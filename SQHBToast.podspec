@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'SQHBToast/Classes/**/*'
   
   s.resource_bundles = {
-     'SQHBToast' => ['SQHBToast/Assets/*/*.png']
+     'SQHBToast' => ['SQHBToast/Assets/Loading.bundle']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

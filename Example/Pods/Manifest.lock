@@ -1,6 +1,7 @@
 PODS:
   - MBProgressHUD (0.9.2)
-  - SQHBToast (0.1.0)
+  - SQHBToast (0.1.0):
+    - MBProgressHUD (~> 0.8)
 
 DEPENDENCIES:
   - MBProgressHUD (~> 0.8)
@@ -12,7 +13,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  SQHBToast: 904457eb59f44aa8958bd12ea82cd8e18c3d13f6
+  SQHBToast: 9cbe69b8df3d3e8f0660165b378f15cab9740e11
 
 PODFILE CHECKSUM: 91ae9a0567b3453cfc7aeda3d8d28badc71ecc9f
 

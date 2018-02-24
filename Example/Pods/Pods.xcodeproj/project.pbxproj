@@ -10,29 +10,44 @@
 		09DB72E2E4F9248E9D09ED3A41EEDBF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		1E528D890E3B32D53D963CE1417BA4D8 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */; };
 		2A76DB3CD21C569626495DE7D69D7B0C /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		352973A11CE5725D6D2290BB24C7952B /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9395EB572FC9A382C02EFBCD6C3880AA /* UIViewController+HUD.m */; };
-		48DB9F88E910DB16F9D24796A944C207 /* UIView+SQLoadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41207EC1F4BC57CD82CBEA41E40D56F3 /* UIView+SQLoadAnimation.m */; };
+		352973A11CE5725D6D2290BB24C7952B /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D73F8F42A8A2145EFC2EA75C980AB06 /* UIViewController+HUD.m */; };
+		48DB9F88E910DB16F9D24796A944C207 /* UIView+SQLoadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BAB740C4528D96E28FE63BA9EE41B0 /* UIView+SQLoadAnimation.m */; };
 		4FE3846D1D8E9CC19B61E3D59170B7A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		509D8F10DC7BD0265790C450C94228E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */; };
 		535C3BD688BA2CDEC5DAE361DDF5D7B0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		635BB2F3CA60DFC4F60CCA46802D7031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		951E122F9EFF8F6DF2AAF2E80A10630A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
-		A161CF1FDDD6DD8FEFA3BDB4A983FE1C /* SQLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E22FFAFDA095D092760A713D32758 /* SQLoadingView.m */; };
-		AAA152E44B3A234F080D9C17B7AAC40F /* SQHBToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E5C85FFE38FAD4D487B68FC30141A /* SQHBToast-dummy.m */; };
+		9DF4724C322B3D6F0E398D371710C9F1 /* Loading.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 817E0C8B1D5EC34A5FFCCDF4DA9AFA02 /* Loading.bundle */; };
+		A161CF1FDDD6DD8FEFA3BDB4A983FE1C /* SQLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA067BB277B26DD289BD6A2C719C62D /* SQLoadingView.m */; };
+		AAA152E44B3A234F080D9C17B7AAC40F /* SQHBToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2716089DAEF4F4C598A526D115F12 /* SQHBToast-dummy.m */; };
 		AE8FD0434B28B9EE365C404469497C1E /* Pods-SQHBToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37806018C6E89A8033CDF273BC84DFD7 /* Pods-SQHBToast_Tests-dummy.m */; };
 		C800DD9EFE283342A823C0A8425E64D8 /* Pods-SQHBToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA764EB53B4E39730C004A34CB4C27C1 /* Pods-SQHBToast_Example-dummy.m */; };
-		D38BDA9E2537139793A8D5FBEB9D1EEE /* UIViewController+HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCFD5321C3B4EF4746026072BCFA1BA /* UIViewController+HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF042571A8CA837279571042BB3BF747 /* UIView+SQLoadAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A8EEEBC5A2E91E62C0EBF5572136478C /* UIView+SQLoadAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E904C2AA7F67431BEE033747ABC06809 /* SQLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C16A54F88D8C2126105F386144D3A2 /* SQLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D38BDA9E2537139793A8D5FBEB9D1EEE /* UIViewController+HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A638E2E538A02BD615BDB77EA743010F /* UIViewController+HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF042571A8CA837279571042BB3BF747 /* UIView+SQLoadAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA48C94C1CBCAB318AA8146C4A8343F /* UIView+SQLoadAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E904C2AA7F67431BEE033747ABC06809 /* SQLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C05F2997B47CBC9326E58B7CF5464057 /* SQLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		87B199C03E0266E7AE6AA87C40EF250B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175B076ED45EB1A3E40F58BA14036467;
+			remoteInfo = MBProgressHUD;
+		};
 		9B02E107B93F0FBBF89C8AFE7FC5FB74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED95CA212B99DBC5B187EE9BF35C1DC3;
 			remoteInfo = SQHBToast;
+		};
+		DA4614EBFB0857D25F01C420F393EE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DECB08C473563D280776DBB54E884EB;
+			remoteInfo = "SQHBToast-SQHBToast";
 		};
 		F61E5CD77098E00977FB79E3660C5EB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,40 +60,43 @@
 
 /* Begin PBXFileReference section */
 		053EBAC53834839000B46A3A92CB340D /* Pods-SQHBToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQHBToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FA48C94C1CBCAB318AA8146C4A8343F /* UIView+SQLoadAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SQLoadAnimation.h"; path = "SQHBToast/Classes/UIView+SQLoadAnimation.h"; sourceTree = "<group>"; };
+		11BAB740C4528D96E28FE63BA9EE41B0 /* UIView+SQLoadAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SQLoadAnimation.m"; path = "SQHBToast/Classes/UIView+SQLoadAnimation.m"; sourceTree = "<group>"; };
 		141E77DD46633B35DF6BEF40A1B5A28F /* Pods-SQHBToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQHBToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D73F8F42A8A2145EFC2EA75C980AB06 /* UIViewController+HUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HUD.m"; path = "SQHBToast/Classes/UIViewController+HUD.m"; sourceTree = "<group>"; };
 		1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		2420277E81FAF1EC377A77474BA7DD7A /* libSQHBToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSQHBToast.a; path = libSQHBToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D5E5C85FFE38FAD4D487B68FC30141A /* SQHBToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQHBToast-dummy.m"; sourceTree = "<group>"; };
+		2287DA36DDF258A837E2E2651723A99A /* ResourceBundle-SQHBToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SQHBToast-Info.plist"; sourceTree = "<group>"; };
 		30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		31E8E689D3CD83D8660A6A230A39BB35 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32845342DA999B126C01F9FAE009B3E3 /* Pods-SQHBToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQHBToast_Example-frameworks.sh"; sourceTree = "<group>"; };
 		37806018C6E89A8033CDF273BC84DFD7 /* Pods-SQHBToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQHBToast_Tests-dummy.m"; sourceTree = "<group>"; };
-		3F22E53CA3FB35DEE005779D97F3BD53 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		41207EC1F4BC57CD82CBEA41E40D56F3 /* UIView+SQLoadAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SQLoadAnimation.m"; path = "SQHBToast/Classes/UIView+SQLoadAnimation.m"; sourceTree = "<group>"; };
+		42F5E3DB959001361B793E9359EC8ADB /* libSQHBToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSQHBToast.a; path = libSQHBToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		611C248175F77422C1E3E80992684330 /* Pods-SQHBToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQHBToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		66FD85A794BB0026CFD8DCB5BBA2E78E /* Pods-SQHBToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQHBToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		69C16A54F88D8C2126105F386144D3A2 /* SQLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLoadingView.h; path = SQHBToast/Classes/SQLoadingView.h; sourceTree = "<group>"; };
-		6CCF83C446863E9E70FB28882ECF26D9 /* SQHBToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQHBToast.xcconfig; sourceTree = "<group>"; };
 		78818736534204587940339587A86E89 /* Pods-SQHBToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQHBToast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		791B5D665F0744B0203D9F824825A075 /* Pods-SQHBToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQHBToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		817E0C8B1D5EC34A5FFCCDF4DA9AFA02 /* Loading.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Loading.bundle; path = SQHBToast/Assets/Loading.bundle; sourceTree = "<group>"; };
 		8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8766D1FE3DA990F2DD17EF1C2280612E /* libPods-SQHBToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SQHBToast_Tests.a"; path = "libPods-SQHBToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E1B5E9C9ED1A464F15DC3D7BD335C6 /* Pods-SQHBToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQHBToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		89912233490E0CC69C2AA75C7C08187F /* SQHBToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQHBToast-prefix.pch"; sourceTree = "<group>"; };
-		9395EB572FC9A382C02EFBCD6C3880AA /* UIViewController+HUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HUD.m"; path = "SQHBToast/Classes/UIViewController+HUD.m"; sourceTree = "<group>"; };
+		8CF2716089DAEF4F4C598A526D115F12 /* SQHBToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQHBToast-dummy.m"; sourceTree = "<group>"; };
+		8FA067BB277B26DD289BD6A2C719C62D /* SQLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLoadingView.m; path = SQHBToast/Classes/SQLoadingView.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9653FB2BF0F298BFA44F2CDA0F9F9933 /* Pods-SQHBToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQHBToast_Example-resources.sh"; sourceTree = "<group>"; };
-		96D57E705B4A211831E19276FFDBFB1E /* libPods-SQHBToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SQHBToast_Tests.a"; path = "libPods-SQHBToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		A8EEEBC5A2E91E62C0EBF5572136478C /* UIView+SQLoadAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SQLoadAnimation.h"; path = "SQHBToast/Classes/UIView+SQLoadAnimation.h"; sourceTree = "<group>"; };
+		9CD0453B27CBAD12C50ED55DD63D44CF /* SQHBToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQHBToast-prefix.pch"; sourceTree = "<group>"; };
+		A638E2E538A02BD615BDB77EA743010F /* UIViewController+HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HUD.h"; path = "SQHBToast/Classes/UIViewController+HUD.h"; sourceTree = "<group>"; };
 		AABE45081325970398177350B3365B5A /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C00118FF8032C129E9E4A1FE2DA93673 /* Pods-SQHBToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQHBToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1C669672EEADDEF401425E53543849A /* libPods-SQHBToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SQHBToast_Example.a"; path = "libPods-SQHBToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D42E22FFAFDA095D092760A713D32758 /* SQLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLoadingView.m; path = SQHBToast/Classes/SQLoadingView.m; sourceTree = "<group>"; };
+		C05F2997B47CBC9326E58B7CF5464057 /* SQLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLoadingView.h; path = SQHBToast/Classes/SQLoadingView.h; sourceTree = "<group>"; };
+		CFBC8AB83D68385C945EBB40E36E7F2A /* SQHBToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQHBToast.xcconfig; sourceTree = "<group>"; };
 		DCCA69EF1A1C00D7441A7D9E43315280 /* Pods-SQHBToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQHBToast_Tests-resources.sh"; sourceTree = "<group>"; };
 		EA764EB53B4E39730C004A34CB4C27C1 /* Pods-SQHBToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQHBToast_Example-dummy.m"; sourceTree = "<group>"; };
+		EBA63B4BDBD5A03AD51D8D7A694DC226 /* SQHBToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SQHBToast.bundle; path = SQHBToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C25438948B22418036999A82784284 /* Pods-SQHBToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQHBToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FFCFD5321C3B4EF4746026072BCFA1BA /* UIViewController+HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HUD.h"; path = "SQHBToast/Classes/UIViewController+HUD.h"; sourceTree = "<group>"; };
+		F98E8C094974AE345D418ABAEC7A2D45 /* libPods-SQHBToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SQHBToast_Example.a"; path = "libPods-SQHBToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +133,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9383CF84E1D876287FED4F13811AD8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01AD310BB219C9D035821C62486F6001 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E7025447DFDCDC97E313739361BEF1F /* SQHBToast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		077EB30DB6AD0F301EC92B8EAEA22722 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,14 +177,6 @@
 			path = "Target Support Files/Pods-SQHBToast_Example";
 			sourceTree = "<group>";
 		};
-		1FF867DDCBEBC41F49A9FC2AC56E99C9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EBBCE4B4C985B4FEC5941FD24A3976D4 /* SQHBToast */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2848C0E8056CB6EE547CD6E0C1780766 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,23 +197,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3E614BFB7690B6FB3407D3CE57F107AE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3F22E53CA3FB35DEE005779D97F3BD53 /* libMBProgressHUD.a */,
-				C1C669672EEADDEF401425E53543849A /* libPods-SQHBToast_Example.a */,
-				96D57E705B4A211831E19276FFDBFB1E /* libPods-SQHBToast_Tests.a */,
-				2420277E81FAF1EC377A77474BA7DD7A /* libSQHBToast.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C93AA53D048424A67CC426E3C9422A44 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E7025447DFDCDC97E313739361BEF1F /* SQHBToast */ = {
+			isa = PBXGroup;
+			children = (
+				C05F2997B47CBC9326E58B7CF5464057 /* SQLoadingView.h */,
+				8FA067BB277B26DD289BD6A2C719C62D /* SQLoadingView.m */,
+				0FA48C94C1CBCAB318AA8146C4A8343F /* UIView+SQLoadAnimation.h */,
+				11BAB740C4528D96E28FE63BA9EE41B0 /* UIView+SQLoadAnimation.m */,
+				A638E2E538A02BD615BDB77EA743010F /* UIViewController+HUD.h */,
+				1D73F8F42A8A2145EFC2EA75C980AB06 /* UIViewController+HUD.m */,
+				532E1A2ECD400ABAC6F2D0CA6D3203E3 /* Resources */,
+				92B8D58403646A10561C2CE06B088BF0 /* Support Files */,
+			);
+			name = SQHBToast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		532E1A2ECD400ABAC6F2D0CA6D3203E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				817E0C8B1D5EC34A5FFCCDF4DA9AFA02 /* Loading.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
@@ -203,10 +241,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1FF867DDCBEBC41F49A9FC2AC56E99C9 /* Development Pods */,
+				01AD310BB219C9D035821C62486F6001 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				5836A44A75C427EBF4739C55E2315758 /* Pods */,
-				3E614BFB7690B6FB3407D3CE57F107AE /* Products */,
+				FF9D661B903C584FB5EBE57B7E778794 /* Products */,
 				2EACB8EB4ADF844F907F46D53C3383DE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -226,6 +264,18 @@
 			path = "Target Support Files/Pods-SQHBToast_Tests";
 			sourceTree = "<group>";
 		};
+		92B8D58403646A10561C2CE06B088BF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2287DA36DDF258A837E2E2651723A99A /* ResourceBundle-SQHBToast-Info.plist */,
+				CFBC8AB83D68385C945EBB40E36E7F2A /* SQHBToast.xcconfig */,
+				8CF2716089DAEF4F4C598A526D115F12 /* SQHBToast-dummy.m */,
+				9CD0453B27CBAD12C50ED55DD63D44CF /* SQHBToast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SQHBToast";
+			sourceTree = "<group>";
+		};
 		C93AA53D048424A67CC426E3C9422A44 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,30 +285,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EBBCE4B4C985B4FEC5941FD24A3976D4 /* SQHBToast */ = {
+		FF9D661B903C584FB5EBE57B7E778794 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69C16A54F88D8C2126105F386144D3A2 /* SQLoadingView.h */,
-				D42E22FFAFDA095D092760A713D32758 /* SQLoadingView.m */,
-				A8EEEBC5A2E91E62C0EBF5572136478C /* UIView+SQLoadAnimation.h */,
-				41207EC1F4BC57CD82CBEA41E40D56F3 /* UIView+SQLoadAnimation.m */,
-				FFCFD5321C3B4EF4746026072BCFA1BA /* UIViewController+HUD.h */,
-				9395EB572FC9A382C02EFBCD6C3880AA /* UIViewController+HUD.m */,
-				FE6FD548394D0771F98E4CBC029CE542 /* Support Files */,
+				31E8E689D3CD83D8660A6A230A39BB35 /* libMBProgressHUD.a */,
+				F98E8C094974AE345D418ABAEC7A2D45 /* libPods-SQHBToast_Example.a */,
+				8766D1FE3DA990F2DD17EF1C2280612E /* libPods-SQHBToast_Tests.a */,
+				42F5E3DB959001361B793E9359EC8ADB /* libSQHBToast.a */,
+				EBA63B4BDBD5A03AD51D8D7A694DC226 /* SQHBToast.bundle */,
 			);
-			name = SQHBToast;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FE6FD548394D0771F98E4CBC029CE542 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6CCF83C446863E9E70FB28882ECF26D9 /* SQHBToast.xcconfig */,
-				2D5E5C85FFE38FAD4D487B68FC30141A /* SQHBToast-dummy.m */,
-				89912233490E0CC69C2AA75C7C08187F /* SQHBToast-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SQHBToast";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +335,7 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 3F22E53CA3FB35DEE005779D97F3BD53 /* libMBProgressHUD.a */;
+			productReference = 31E8E689D3CD83D8660A6A230A39BB35 /* libMBProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6F31490E4D7952AB46FED7E0826BA24D /* Pods-SQHBToast_Tests */ = {
@@ -315,8 +351,25 @@
 			);
 			name = "Pods-SQHBToast_Tests";
 			productName = "Pods-SQHBToast_Tests";
-			productReference = 96D57E705B4A211831E19276FFDBFB1E /* libPods-SQHBToast_Tests.a */;
+			productReference = 8766D1FE3DA990F2DD17EF1C2280612E /* libPods-SQHBToast_Tests.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		8DECB08C473563D280776DBB54E884EB /* SQHBToast-SQHBToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C949EDFE99FC40EB0863E1EE4BDAA133 /* Build configuration list for PBXNativeTarget "SQHBToast-SQHBToast" */;
+			buildPhases = (
+				431860877EEFC9FD43A62BF234839272 /* Sources */,
+				9383CF84E1D876287FED4F13811AD8FA /* Frameworks */,
+				A5960184BF5D9BDF014A1B2D6D01B6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQHBToast-SQHBToast";
+			productName = "SQHBToast-SQHBToast";
+			productReference = EBA63B4BDBD5A03AD51D8D7A694DC226 /* SQHBToast.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		91618D4EE708493F7977120ED165E3D0 /* Pods-SQHBToast_Example */ = {
 			isa = PBXNativeTarget;
@@ -333,7 +386,7 @@
 			);
 			name = "Pods-SQHBToast_Example";
 			productName = "Pods-SQHBToast_Example";
-			productReference = C1C669672EEADDEF401425E53543849A /* libPods-SQHBToast_Example.a */;
+			productReference = F98E8C094974AE345D418ABAEC7A2D45 /* libPods-SQHBToast_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		ED95CA212B99DBC5B187EE9BF35C1DC3 /* SQHBToast */ = {
@@ -347,10 +400,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				E95DF84FC24248CDBD2DF97D5E22ECEE /* PBXTargetDependency */,
+				B9366BF7DC57F91E21B8BB9E0E97D595 /* PBXTargetDependency */,
 			);
 			name = SQHBToast;
 			productName = SQHBToast;
-			productReference = 2420277E81FAF1EC377A77474BA7DD7A /* libSQHBToast.a */;
+			productReference = 42F5E3DB959001361B793E9359EC8ADB /* libSQHBToast.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -370,7 +425,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3E614BFB7690B6FB3407D3CE57F107AE /* Products */;
+			productRefGroup = FF9D661B903C584FB5EBE57B7E778794 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -378,11 +433,30 @@
 				91618D4EE708493F7977120ED165E3D0 /* Pods-SQHBToast_Example */,
 				6F31490E4D7952AB46FED7E0826BA24D /* Pods-SQHBToast_Tests */,
 				ED95CA212B99DBC5B187EE9BF35C1DC3 /* SQHBToast */,
+				8DECB08C473563D280776DBB54E884EB /* SQHBToast-SQHBToast */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A5960184BF5D9BDF014A1B2D6D01B6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF4724C322B3D6F0E398D371710C9F1 /* Loading.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		431860877EEFC9FD43A62BF234839272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D33F71494112F86C9ADA98D852C5FBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +501,18 @@
 			name = SQHBToast;
 			target = ED95CA212B99DBC5B187EE9BF35C1DC3 /* SQHBToast */;
 			targetProxy = 9B02E107B93F0FBBF89C8AFE7FC5FB74 /* PBXContainerItemProxy */;
+		};
+		B9366BF7DC57F91E21B8BB9E0E97D595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQHBToast-SQHBToast";
+			target = 8DECB08C473563D280776DBB54E884EB /* SQHBToast-SQHBToast */;
+			targetProxy = DA4614EBFB0857D25F01C420F393EE86 /* PBXContainerItemProxy */;
+		};
+		E95DF84FC24248CDBD2DF97D5E22ECEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */;
+			targetProxy = 87B199C03E0266E7AE6AA87C40EF250B /* PBXContainerItemProxy */;
 		};
 		EC50DEC0FDF496625EE0FA5DC6DAC26C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -542,7 +628,7 @@
 		};
 		719882211191BA0DA654A474902A7C2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CCF83C446863E9E70FB28882ECF26D9 /* SQHBToast.xcconfig */;
+			baseConfigurationReference = CFBC8AB83D68385C945EBB40E36E7F2A /* SQHBToast.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -617,9 +703,41 @@
 			};
 			name = Release;
 		};
+		8D86DB993708C9DB64B65964854A7B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBC8AB83D68385C945EBB40E36E7F2A /* SQHBToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SQHBToast";
+				INFOPLIST_FILE = "Target Support Files/SQHBToast/ResourceBundle-SQHBToast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SQHBToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		903727B52A60AD84195504EF22E71082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBC8AB83D68385C945EBB40E36E7F2A /* SQHBToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SQHBToast";
+				INFOPLIST_FILE = "Target Support Files/SQHBToast/ResourceBundle-SQHBToast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SQHBToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		9998B7EA8D569DF1A7683D6BBD38DD29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CCF83C446863E9E70FB28882ECF26D9 /* SQHBToast.xcconfig */;
+			baseConfigurationReference = CFBC8AB83D68385C945EBB40E36E7F2A /* SQHBToast.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -755,6 +873,15 @@
 			buildConfigurations = (
 				F52F2337A4500B8458D35EC4BACC20C5 /* Debug */,
 				F250A9773BFDA53FC295E2B1B14C63AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C949EDFE99FC40EB0863E1EE4BDAA133 /* Build configuration list for PBXNativeTarget "SQHBToast-SQHBToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D86DB993708C9DB64B65964854A7B01 /* Debug */,
+				903727B52A60AD84195504EF22E71082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
