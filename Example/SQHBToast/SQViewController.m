@@ -23,7 +23,7 @@
     
     MBShowToast(@"OKOK");
     
-    [self.view beginLoading];    
+    [self.view beginLoading];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event

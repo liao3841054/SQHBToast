@@ -45,16 +45,13 @@
     _loadingView.animationRepeatCount = 0;
     //开始动画
     _loadingView.animationImages = loadingArray;
-    
     [self addSubview:_loadingView];
-    
     _loadingView.frame  = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
-//    _loadingView.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
+    _loadingView.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
 }
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    _loadingView.center = CGPointMake(self.superview.frame.size.width * 0.5, self.superview.frame.size.height * 0.5);
 }
 
 - (BOOL)isLoading

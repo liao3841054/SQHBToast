@@ -41,7 +41,7 @@ static char LoadingViewKey;
     UIView * loadingView = self.loadingView;
     loadingView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [containerView addSubview:self.loadingView];
-    self.loadingView.center = loadingView.center;
+    self.loadingView.center = self.center;
     [self.loadingView startLoading];
 }
 
