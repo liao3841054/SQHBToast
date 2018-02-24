@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SQHBToast_Example' do
+  pod 'SQHBToast', :path => '../'
+
+  target 'SQHBToast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
